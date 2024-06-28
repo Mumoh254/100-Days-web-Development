@@ -1,0 +1,337 @@
+   /* Apple   Css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+  font-family: Roboto;
+  --btn-color: rgba(33, 33, 131, 0.829);
+  --color: rgba(201, 195, 195, 0.715);
+  --font-size:  2em;
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+.header-section  {
+   
+    width: 100%;
+ 
+    padding: 0% 1%;
+    position: sticky;
+    z-index: 8;
+    top: 0;
+    background-color: #fff;
+}
+
+.header{
+  
+     height: 100px;
+    display: flex;
+  
+    border-bottom: 0.5px solid rgb(0, 0, 0, 0.2);
+}
+
+.logo{
+    width: 40%;
+ 
+    height: 100%;
+    color: rgb(21, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > a  {
+  text-decoration: none;
+  font-size: 4em;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header-info  {
+    width: 60%;
+  
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.btn  > input  {
+    height: 40px;
+    width: 150%;
+    border: none;
+    font-size: 18px;
+    text-indent: 10px;
+    font-weight: 600;
+    outline: none;
+ 
+}
+
+.apple  {
+   padding: 10px 10px;
+
+    width: 100%;
+    display: flex;
+}
+.apple-lol  {
+  height: 100%;
+  width: 38%;
+  display: flex;
+
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  font-weight: 6em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.overview  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 70%;
+    font-size: 14px;
+}
+
+.overview  >  button {
+  
+    width: 10%;
+    font-size: 16px;
+    background: rgb(219, 40, 40);
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: 600;
+}
+
+.main  {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px  0px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+ 
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    align-items: center;
+  
+}
+
+
+.articles  {
+ width: 32%;
+ margin-top: 20px;
+ min-height: 400px;
+ border: 0.5px solid rgba(0, 0, 0, 0.1);
+ border-radius: 15px;
+box-shadow: rgb(0, 0, 0, 0.3);
+ column-gap: 20px;
+ overflow: hidden;
+ display: flex;
+
+ transition: .3s;
+}
+.articles:hover {
+   
+    outline: none;
+    border: none;
+}
+.article  {
+   
+    width: 100%;
+    display: flex;
+}
+
+.image {
+  
+    width: 70%;
+    margin-right: 20px;
+   
+}
+
+.card {
+    height:  100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    padding: 2px 5px;
+   
+   
+}
+.author > p {
+    font-size: 1.1em;
+    font-weight: 200;
+} 
+.card > h3  {
+    font-size: 1.3em;
+}
+
+.card > p {
+   font-size: 1.4em;
+}
+
+.btn{
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    background: #00000023;
+    color: #100e0eb3;
+    font-weight: 700;
+}
+
+.footer  {
+    width: 100%;
+    min-height: 400px;
+    margin: 15px;
+ 
+}
+
+.work  {
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.work  > h1  {
+    font-size: 7em;
+}
+
+.work > h3  {
+    font-size: 4em;
+}
+
+.a {
+    font-size: 6em;
+    text-decoration: none;
+    color: rgb(43, 69, 98);
+    outline: none;
+    margin-bottom: 3px;
+    border-bottom: 0.5px  solid rgb(0, 0, 0, 0.2);
+}
+
+
+.news  {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    padding: 0%  10%;
+    margin-top: 15px;
+    border-top: 0.3px solid rgba(0 , 0, 0, 0.2);
+    border-bottom: 0.3px solid rgba(0 , 0, 0, 0.2);
+}  
+.news-info  {
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 10px;
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px  10px;
+
+}
+
+.footer-main  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+  
+    padding: 10px  10px;
+}
+
+.footer-main > h4  {
+    font-size: 3em;
+}
+
+.shop  > h4 {
+    font-size: 3em;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shop  > h2  {
+    font-size: 3em;
+    border-bottom: 0.5px solid  rgb(79, 61, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.account > h4 {
+    font-size: 3em;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.account > h2  {
+    font-size: 3em;
+    border-bottom: 0.5px solid  rgb(76, 61, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.education  > h4 {
+    font-size: 3em;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.education > h2  {
+    font-size: 3em;
+    border-bottom: 0.5px solid  rgb(74, 65, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.values  > h4 {
+    font-size: 3em;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.values  > h2  {
+    font-size: 3em;
+    border-bottom: 0.5px solid  rgb(102, 79, 79);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    width: 98%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-bottom: 0.5px solid  rgb(141, 121, 121, 0.2);
+    padding-bottom: 15px;
+}
+.body{
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
