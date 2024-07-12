@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.product{
+    height: 400px;
+    width: 22%;
+   border-radius: 5px;
+    overflow: hidden;
+    border: 1px  solid rgb(0, 0, 0);
+}
+
+.img  {
+      height: 100%;
+      margin-left: -150px;
+      margin-bottom: -50px;
+}
+
+
