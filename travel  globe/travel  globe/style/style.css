@@ -1,0 +1,124 @@
+*{
+     margin: 0;
+     padding: 0;
+    
+}
+
+.main{
+
+    height: 100vh;
+    background-image: url("/assets/banner.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.navigation  {
+    width: 60%;
+
+     display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+       
+}
+
+.nav-links  {
+  
+    display: flex;
+
+    padding: 3px 5px;
+    width: 100%;
+    justify-content: space-between;
+       font-weight: 700;
+     cursor: pointer;
+    list-style: none;
+
+}
+.drop-down  {
+    display: none;
+}
+.nav-link:hover{
+   background-color: yellow;
+   padding: 3px 2px;
+   font-weight: 400;
+   border-bottom: 0.5px  dotted black;
+   display: block;
+   
+   transition: .9s;
+}
+
+.nav-link:hover .drop-down  {
+    display: block;
+
+}
+
+.nav-link{
+    transition: .9s;
+}
+
+
+.logo{
+   
+    width: 20%;
+    padding: 3px 5px;
+
+    color: black;
+
+    font-weight: bold;
+    
+}
+
+.ban {
+    display: flex;
+    justify-content: center;
+
+}
+.banner  {
+
+    width: 60%;
+ 
+    padding: 25px 2px;
+
+}
+
+.heading  h2{
+    
+}
+
+.head  {
+    font-family: "poppins";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+
+.booking  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239, 239, 239);
+    background: #5252c7f0;
+    padding: 4px  2px;
+}
+
+input  {
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 2px  1px;
+    border-radius: 5px;
+    text-indent: 2px;
+}
+
+.btn  {
+border-radius: 5px;
+color: rgb(255, 255, 255);
+font-family: "sans-serif";
+background: blue;
+border: none;
+padding: 2px 1px;
+
+}
