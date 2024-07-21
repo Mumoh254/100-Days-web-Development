@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+/* my  root  elements  */
+
+
+
+
+:root{
+
+    --bg-color:  red;
+    --fonts-family:  "Roboto";
+    --font-family:  "Oswald";
+    --font-size:   22px;
+    --bg-btn: blue;
+
+
+}
+
+.form{
+
+     font-family: var(--);
+     height: auto;
+     padding: 10px;
+     margin-bottom: 20px;
+    
+    
+}
+
+
+form {
+    background: rgb( 27  ,  10  , 10 , 1);
+    padding: 20px   30px;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    font-family: var(--fonts-family);
+    
+    
+}
+
+
+form input  {
+    border: none;
+    padding: 4px;
+    background-color: transparent;
+    border-bottom:  0.5px solid rgba(255, 252, 252, 0.3);
+    color: #0be52c;
+    text-indent: 0.5px;
+}
+
+.btn {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--bg-color);
+    font-size: 5rem;
+
+}
+
+.btn:hover  {
+    background:  var(--bg-color);
+    color: #fff;
+
+}
+
+
+.one  {
+    background: #000;
+    width: 20%;
+    padding: 10px;
+    color: white;
+}
+
+
+.two{
+    background: #ae4141;
+    width: 20%;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.three  {
+    background: #290aa8;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    
+}
+
+.parent  {
+    background: yellow;
+
+     padding: 4px;
+    display: flex;
+    justify-content: space-between;
+  
+  
+}
+
+
+.img  {
+     
+
+    width: 100%;
+    height: 200px;
+
+    background-image: url("https://img.freepik.com/free-photo/searching-engine-optimizing-seo-browsing-concept_53876-64993.jpg?ga=GA1.1.2051581864.1704018228&semt=sph");
+
+   background-repeat: no-repeat;
+   background-position: cover;
+
+
+}
+
+
